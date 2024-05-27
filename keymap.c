@@ -25,9 +25,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 
 [_LOWER] = LAYOUT(
-  _______, KC_LBRC, KC_LCBR, KC_LPRN, KC_LABK, KC_AMPR,                   KC_PIPE, KC_RABK, KC_RPRN, KC_RCBR, KC_RBRC, _______,
-  _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DQUO,                   KC_PLUS, KC_MINS, KC_ASTR, KC_SLSH, KC_EQL,  _______,
-  _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_QUOT,                   KC_EXLM, KC_UNDS, KC_TILD, _______, _______, KC_GRV,
+  _______, KC_DQUO, KC_LBRC, KC_LCBR, KC_LPRN, KC_LABK,                   KC_RABK, KC_RPRN, KC_RCBR, KC_RBRC, KC_QUOT, _______,
+  _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_PLUS,                   KC_MINS, KC_EQL,  _______, _______, _______, _______,
+  _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_ASTR,                   KC_SLSH, _______, _______, _______, _______, KC_GRV,
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   _______, _______, _______, _______, _______, _______, _______, KC_BSLS, _______,
   _______, _______, _______, _______,                                                       _______, _______, _______, _______
 ),
@@ -35,9 +35,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 
 [_RAISE] = LAYOUT(
-  _______, KC_LBRC, KC_LCBR, KC_LPRN, KC_LABK, KC_AMPR,                   KC_PIPE, KC_RABK, KC_RPRN, KC_RCBR, KC_RBRC, _______,
-  _______, KC_AT,   KC_PIPE, KC_AMPR, KC_BSLS, KC_DQUO,                   KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
-  _______, _______, _______, _______, _______, KC_QUOT,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, KC_GRV,
+  _______, KC_DQUO, KC_LBRC, KC_LCBR, KC_LPRN, KC_LABK,                   KC_RABK, KC_RPRN, KC_RCBR, KC_RBRC, KC_QUOT, _______,
+  _______, _______, _______, _______, _______, _______,                   KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
+  _______, _______, _______, _______, _______, _______,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, KC_GRV,
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_BSLS, _______,
   _______, _______, _______, _______,                                                       _______, _______, _______, _______
 ),
