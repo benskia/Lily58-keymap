@@ -21,26 +21,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_DEL,  KC_CAPS, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
   KC_LALT, KC_LGUI, MO(_LOWER), KC_SPC,                                                   KC_ENT, MO(_RAISE), KC_BSPC, KC_RALT
 ),
+
 /* LOWER
  */
 
 [_LOWER] = LAYOUT(
-  _______, KC_DQUO, KC_LBRC, KC_LCBR, KC_LPRN, KC_LABK,                   KC_RABK, KC_RPRN, KC_RCBR, KC_RBRC, KC_QUOT, _______,
-  _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_PLUS,                   KC_MINS, KC_EQL,  _______, _______, _______, _______,
-  _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_ASTR,                   KC_SLSH, _______, _______, _______, _______, KC_GRV,
+  _______, _______, _______, _______, _______, _______,                   KC_LABK, KC_MINS, KC_EQL,  KC_RABK, KC_PLUS, _______,
+  _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______,                   KC_D,    KC_LBRC, KC_RBRC, KC_COMM, _______, _______,
+  _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   _______,                   KC_LPRN, KC_LCBR, KC_RCBR, KC_RPRN, _______, _______,
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   _______, _______, _______, _______, _______, _______, _______, KC_BSLS, _______,
   _______, _______, _______, _______,                                                       _______, _______, _______, _______
 ),
+
 /* RAISE
  */
 
-[_RAISE] = LAYOUT(
-  _______, KC_DQUO, KC_LBRC, KC_LCBR, KC_LPRN, KC_LABK,                   KC_RABK, KC_RPRN, KC_RCBR, KC_RBRC, KC_QUOT, _______,
-  _______, _______, _______, _______, _______, _______,                   KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
-  _______, _______, _______, _______, _______, _______,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, KC_GRV,
-  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_BSLS, _______,
+    [_RAISE] = LAYOUT(
+  _______, KC_ASTR, KC_SLSH, KC_PLUS, KC_MINS, KC_EQL,                    _______, _______, _______, _______, _______, _______,
+  _______, _______, KC_CIRC, KC_HASH, KC_ASTR, KC_DLR,                    KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
+  _______, _______, KC_LPRN, KC_LCBR, KC_RCBR, KC_RPRN,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_COLN, _______,
+  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   _______, _______, _______, _______,                                                       _______, _______, _______, _______
 ),
+
 /* ADJUST
  */
   [_ADJUST] = LAYOUT(
