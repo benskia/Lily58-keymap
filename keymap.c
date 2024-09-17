@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT(
   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                     KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
   _______, _______, _______, _______, _______, _______,                   KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
-  _______, _______, KC_LBRC, KC_LCBR, KC_LPRN, KC_QUOT,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, KC_GRV,
+  _______, KC_EXLM, KC_LBRC, KC_LCBR, KC_LPRN, KC_QUOT,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, KC_GRV,
   _______, KC_ASTR, KC_LABK, KC_MINS, KC_EQL,  KC_PLUS, _______, _______, _______, _______, _______, _______, KC_BSLS, _______,
   _______, _______, _______, _______,                                                       _______, _______, _______, _______
 ),
@@ -38,9 +38,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_RAISE] = LAYOUT(
   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                     KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
-  _______, _______, KC_CIRC, KC_HASH, KC_ASTR, KC_DLR,                    _______, _______, _______, _______, _______, _______,
-  _______, _______, KC_LPRN, KC_RCBR, KC_LCBR, KC_RPRN,                   KC_QUOT, KC_RPRN, KC_RCBR, KC_RBRC, KC_COLN, KC_GRV,
-  _______, _______, _______, _______, _______, _______, _______, _______, KC_PLUS, KC_EQL,  KC_MINS, KC_RABK, _______, _______,
+  _______, _______, KC_MPLY, KC_MPRV, KC_MNXT, _______,                   _______, _______, _______, _______, _______, KC_UNDS,
+  _______, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______,                   KC_QUOT, KC_RPRN, KC_RCBR, KC_RBRC, KC_COLN, KC_GRV,
+  _______, _______, KC_PSCR, KC_BRID, KC_BRIU, _______, _______, _______, KC_PLUS, KC_EQL,  KC_MINS, KC_RABK, _______, _______,
   _______, _______, _______, _______,                                                       _______, _______, _______, _______
 ),
 
